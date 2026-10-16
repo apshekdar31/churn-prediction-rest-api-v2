@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # Base URL of the Flask backend
-BACKEND_URL = "http://backend:7860"
+BACKEND_URL = "http://docker.internal"
 
 # Page title
 st.title("Telecom Customer Churn Prediction App")
